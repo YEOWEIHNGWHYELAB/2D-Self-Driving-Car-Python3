@@ -14,5 +14,5 @@ To execute the application, just run the "map.py" file.
 If your IDE is unable to run it, go to CMD, cd to that project directory, and then enter the command: python map.py
 To use the Override function, click on it and you can use your keyboard's left and right arrow to control the car.
 
-All icons are obtained from flaticon. 
-
+All icons are obtained from flaticon.  
+Check them out: https://www.flaticon.com/
