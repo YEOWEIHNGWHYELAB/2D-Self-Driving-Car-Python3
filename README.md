@@ -1,5 +1,7 @@
 # 2D_Self_Driving_Car_Python_3
 
+This application is far from perfect and have some issues that has yet to be solved... (Read the To-Do List)
+
 This is a Deep Reinforcement Learning application specifically Deep Q-Learning. 
 Ensure that your python interpreter is 3.7 or later. 
 There are many python libraries required to run this application: numpy, math, matplotlib, pygame, os, random, pytorch.
