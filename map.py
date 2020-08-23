@@ -336,10 +336,10 @@ def main():
 
         orientation = math.acos(((b ** 2) + (c ** 2) - (a ** 2)) / (2 * b * c))
 
-        fuck_you_math_1 = int(math.degrees(orientation)) # For testing...
-        # print(fuck_you_math_1) # For testing if the Math works or not...
+        you_math_1 = int(math.degrees(orientation)) # For testing...
+        # print(you_math_1) # For testing if the Math works or not...
 
-        orientation_print = font.render("Orientation : " + str(fuck_you_math_1), True, (255, 0, 0))
+        orientation_print = font.render("Orientation : " + str(you_math_1), True, (255, 0, 0))
         win.blit(orientation_print, (180, 5))
 
         Signal_1_Display = font.render("Signal 1 : " + str(sensor_new.sig_1), True, (75, 175, 255))
