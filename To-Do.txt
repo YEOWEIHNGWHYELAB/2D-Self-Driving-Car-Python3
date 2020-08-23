@@ -6,7 +6,7 @@ Hello from the pygame community. https://www.pygame.org/contribute.html
 Loading Last Saved BenjaBrain...
 => loading checkpoint... 
 done !
-Making Screen_Nigga...
+Making Screen_Nia...
 Traceback (most recent call last):
   File "C:/Users/YEO WEI HNG (WHY)/Documents/PyWork/2D Self Driving Car Python 3/map.py", line 367, in <module>
     main()
@@ -16,4 +16,4 @@ ValueError: math domain error
 
 Process finished with exit code 1
 
-What the fuck kind of error is this? It pop up like 3 times already. 
+What kind of error is this? It pop up like 3 times already. 
