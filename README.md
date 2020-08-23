@@ -1,5 +1,7 @@
 # 2D_Self_Driving_Car_Python_3
 
+This is my first Python project, so be ready for tons of issue. 
+
 Warning: This application is far from perfect and have some issues that are yet to be solved... 
 - Do not use the Override function when you are training the AI.
 - The Cosine Rule sometimes return a domain error.
