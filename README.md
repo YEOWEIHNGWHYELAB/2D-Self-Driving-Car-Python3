@@ -7,4 +7,4 @@ To execute the application, just run the "map.py" file.
 If your IDE is unable to run it, go to CMD, cd to that project directory, and then enter the command: python map.py
 
 All icons are obtained from flaticon. 
-Pardon my foul language in the code! 
+
