@@ -156,7 +156,7 @@ class sensor(object):
 
 # For the drawing of sand
 def draw_cursor(screen):
-    global Nigga_coordinates, list_click_clear_canvas, list_click_save, list_click_load, override   # Nigga_coordinates is where all the road coordinates will be stored in.
+    global Nia_coordinates, list_click_clear_canvas, list_click_save, list_click_load, override   # Nia_coordinates is where all the road coordinates will be stored in.
     pos = pygame.mouse.get_pos()
     mouse_down = pygame.mouse.get_pressed()[0]
     x = pos[0]
@@ -166,7 +166,7 @@ def draw_cursor(screen):
         screen.blit(Cursor_Clicked, (x, y - 48))
         for i1 in range(1, 10):
             for i2 in range(1, 10):
-                Nigga_coordinates.add((x + 12 + i1, y - 48 + i2))
+                Nia_coordinates.add((x + 12 + i1, y - 48 + i2))
 
         for ii in list_click_override:
             if cursorclickXY == ii:
@@ -241,9 +241,9 @@ def draw_4_Buttons(screen):
     overRide = pygame.draw.rect(screen, (0, 150, 174), (850, 0, 100, 50))
 
 def clear_canvas(): # clear button
-    global sand, Nigga_coordinates
-    print("Making Screen_Nigga...")
-    Nigga_coordinates.clear()
+    global sand, Nia_coordinates
+    print("Making Screen_Nia...")
+    Nia_coordinates.clear()
     sand = np.zeros((width, height))
 
 def save(): # save button
@@ -262,7 +262,7 @@ def muda_function(xc1, list_of_crap):
             list_of_crap.append([ii1, ii])
 
 def main():
-    global Nigga_coordinates, Cursor, Cursor_Clicked, goal_x, goal_y, distance, last_distance, goal_list, Finishing_Flag, last_reward, sand, car_1, list_click_override, list_click_clear_canvas, list_click_save, list_click_load, width, height, override, scores, font, win
+    global Nia_coordinates, Cursor, Cursor_Clicked, goal_x, goal_y, distance, last_distance, goal_list, Finishing_Flag, last_reward, sand, car_1, list_click_override, list_click_clear_canvas, list_click_save, list_click_load, width, height, override, scores, font, win
     pygame.init()   # Initialize all imported pygame modules, if not your font cannot be initialized.
     width = 1280  # Width for screen
     height = 720  # Height for screen
@@ -279,8 +279,8 @@ def main():
     pygame.display.set_caption("WannaCry?")
     clock = pygame.time.Clock()
     car_1 = carMove()
-    Nigga_coordinates = {(-10, -10)}    # Have to initialize the set with a set first...
-    Nigga_coordinates.clear()   # Then clear that set to removed the initialized set...
+    Nia_coordinates = {(-10, -10)}    # Have to initialize the set with a set first...
+    Nia_coordinates.clear()   # Then clear that set to removed the initialized set...
     last_distance = 0
     scores = []  # Initializing the mean score curve... (Sliding window of the rewards) with respect to time
     list_click_override = []
@@ -303,7 +303,7 @@ def main():
     while True:
         pygame.time.delay(50)  # Delay in millisecond
         clock.tick(1000)
-        win.fill((0, 0, 0)) # This is the background and is NIGGA!
+        win.fill((0, 0, 0)) # This is the background and is NIA!
         if override == True:
             car_1.move_2()
         else:
@@ -320,12 +320,12 @@ def main():
         pygame.mouse.set_visible(0)
         draw_cursor(win)    # Draw the cursor
         win.blit(Finishing_Flag, (goal_x, goal_y))  # Draw the Finishing_Flag
-        for x, y in Nigga_coordinates:
+        for x, y in Nia_coordinates:
             pygame.draw.circle(win, (255, 255, 255), (x , y), 1)
-        for xx, yy in Nigga_coordinates:
+        for xx, yy in Nia_coordinates:
             sand[xx, yy] = 1
             # print(sand) # For testing. Not recommended...
-        # print(Nigga_coordinates) # Check and make sure that it is indeed being cleared when the clear button is depressed.
+        # print(Nia_coordinates) # Check and make sure that it is indeed being cleared when the clear button is depressed.
         reward(car_1.cord_x, car_1.cord_y)
         sensor_new = sensor(car_1.cord_x, car_1.cord_y, car_1.angleHoriz)
         sensor_new.draw_3_sensor(win)
