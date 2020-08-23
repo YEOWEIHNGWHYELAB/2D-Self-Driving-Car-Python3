@@ -272,7 +272,7 @@ def main():
     sand = np.zeros((width, height))  # numpy.zeros(shape, dtype=float, order='C')
     goal_x = 30
     goal_y = 30
-    Cursor = pygame.image.load('Middle_Finger.png')
+    Cursor = pygame.image.load('Cursor_Clicked.png')
     Cursor_Clicked = pygame.image.load('Cursor_Clicked.png')
     Finishing_Flag = pygame.image.load('Finishing_Flag.png')
     win = pygame.display.set_mode((width, height))  # Set the screen.
