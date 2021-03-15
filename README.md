@@ -4,7 +4,7 @@ This is my first Python project, it isn't perfect and have a few issues.
 
 This application is not perfect and there are several things that will be added and fixed in the future.
 - Do not use the Override function when you are training the AI.
-- The Cosine Rule sometimes return a domain error.
+- The Cosine Rule function sometimes return a domain error.
 - Insufficient amount of data given to the car for it to optimize for the best route. Thus it will ignore the road and instead just crash onto it... 
 - Sometimes suicide and crash into the sand which is attributed to finding new approach to finish each epoch.
 - The reward function is not optimized for the car to find the shortest path... Leading to the car commiting weird acts to reach its goal. 
