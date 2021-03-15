@@ -20,6 +20,7 @@ If your IDE is unable to run it, go to CMD, cd to that project directory, and th
 To use the Override function, click on it and you can use your keyboard's left and right arrow to control the car.
 Use your cursor to draw the road.
 If you want to erase part of your road, you must clear everything...
+If you give the AI enough training time, the AI will actually do quite well in the environments that you have made. 
 
 All icons are obtained from flaticon.  
 Check them out: https://www.flaticon.com/
