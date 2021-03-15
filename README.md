@@ -1,8 +1,8 @@
 # 2D_Self_Driving_Car_Python_3
 
-This is my first Python project, so be ready for tons of issues.
+This is my first Python project, it isn't perfect and have a few issues.
 
-Warning: This application is far from perfect and have some issues that are yet to be solved... 
+This application is not perfect and there are several things that will be added and fixed in the future.
 - Do not use the Override function when you are training the AI.
 - The Cosine Rule sometimes return a domain error.
 - Insufficient amount of data given to the car for it to optimize for the best route. Thus it will ignore the road and instead just crash onto it... 
