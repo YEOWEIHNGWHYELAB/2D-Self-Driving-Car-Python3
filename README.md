@@ -21,6 +21,7 @@ To use the Override function, click on it and you can use your keyboard's left a
 Use your cursor to draw the road.
 If you want to erase part of your road, you must clear everything...
 If you give the AI enough training time, the AI will actually do quite well in the environments that you have made. 
+To think about: Is it really a requirement to pass in 2 orientation values to the AI one is a negative of the other to the AI? Removing one of it doesn't really change anything in my opinion since both are practically the same with just a additive inverse. 
 
 Udemy Site: https://www.udemy.com/course/artificial-intelligence-az/
 
