@@ -1,6 +1,6 @@
 # 2D_Self_Driving_Car_Python_3
 
-This is my first Python project, it isn't perfect and have a few issues.
+This is my first Python project, it isn't perfect and have a few issues. I have learnt this from the course Artificial Intelligence A-Z™: Learn How To Build An AI. Its a very good course. Check them out at the link below. 
 
 This application is not perfect and there are several things that will be added and fixed in the future.
 - Do not use the Override function when you are training the AI.
@@ -21,6 +21,8 @@ To use the Override function, click on it and you can use your keyboard's left a
 Use your cursor to draw the road.
 If you want to erase part of your road, you must clear everything...
 If you give the AI enough training time, the AI will actually do quite well in the environments that you have made. 
+
+Udemy Site: https://www.udemy.com/course/artificial-intelligence-az/
 
 All icons are obtained from flaticon.  
 Check them out: https://www.flaticon.com/
