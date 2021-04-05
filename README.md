@@ -1,6 +1,6 @@
 # 2D_Self_Driving_Car_Python_3
 
-This is my first Python project, it isn't perfect and have a few issues. I have learnt this from the course Artificial Intelligence A-Z™: Learn How To Build An AI. Its a very good course. Check them out at the link below. 
+This is my first Python project, it isn't perfect and have a few issues. I have learnt this from the course Artificial Intelligence A-Z™: Learn How To Build An AI. Its a very good course. Check them out at the link below. My ai.py code is referenced from them.
 
 This application is not perfect and there are several things that will be added and fixed in the future.
 - Do not use the Override function when you are training the AI.
