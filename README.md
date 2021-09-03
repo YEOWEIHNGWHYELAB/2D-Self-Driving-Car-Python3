@@ -29,7 +29,7 @@ To think about: Is it really a requirement to pass in 2 orientation values to th
 ![github-small](https://github.com/YEOWEIHNGWHYELAB/2D-Self-Driving-Car-Python3/blob/master/Images/EnvironmentWithObstacles.png)
 
 ## Performance diagnostics
-![github-small](https://github.com/YEOWEIHNGWHYELAB/AILEX/blob/main/Start.png?raw=true)
+![github-small](https://github.com/YEOWEIHNGWHYELAB/2D-Self-Driving-Car-Python3/blob/master/Images/PerformanceDiagnostics.png)
 
 Udemy Site: https://www.udemy.com/course/artificial-intelligence-az/
 
