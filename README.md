@@ -31,6 +31,8 @@ To think about: Is it really a requirement to pass in 2 orientation values to th
 ## Performance diagnostics
 ![github-small](https://github.com/YEOWEIHNGWHYELAB/2D-Self-Driving-Car-Python3/blob/master/Images/PerformanceDiagnostics.png)
 
+The reward is getting better overtime but due to the limitation of the parameters feed into the AI, it is rather difficult for the AI to even be able to make out how to navigate through the obstacles. Moreover, there is no Computer Vision used at all. It is just able to sense the obstacle in front of it. Thus the AI is probably unable to see long term consequences for taking a particular action. But nevertheless, its a very good beginners project.
+
 Udemy Site: https://www.udemy.com/course/artificial-intelligence-az/
 
 All icons are obtained from flaticon.  
