@@ -11,6 +11,8 @@ This application is not perfect and there are several things that will be added 
 - The buttons on screen is not reliable. 
 - The erase button has not been added. 
 
+The reason which I have to make this project is that the original code provided by the course doesn't work and uses deprecated Python2. 
+It was also quite an experience to have to build this project up from scratch. 
 This is a Deep Reinforcement Learning application specifically Deep Q-Learning. 
 Ensure that your python interpreter is 3.7 or later. 
 There are many python libraries required to run this application: numpy, math, matplotlib, pygame, os, random, pytorch.
@@ -22,6 +24,12 @@ Use your cursor to draw the road.
 If you want to erase part of your road, you must clear everything...
 If you give the AI enough training time, the AI will actually do quite well in the environments that you have made. 
 To think about: Is it really a requirement to pass in 2 orientation values to the AI one is a negative of the other to the AI? Removing one of it doesn't really change anything in my opinion since both are practically the same with just a additive inverse. 
+
+## Training Environment
+![github-small](https://github.com/YEOWEIHNGWHYELAB/AILEX/blob/main/Website.png)
+
+## Performance diagnostics
+![github-small](https://github.com/YEOWEIHNGWHYELAB/AILEX/blob/main/Start.png?raw=true)
 
 Udemy Site: https://www.udemy.com/course/artificial-intelligence-az/
 
