@@ -26,7 +26,7 @@ If you give the AI enough training time, the AI will actually do quite well in t
 To think about: Is it really a requirement to pass in 2 orientation values to the AI one is a negative of the other to the AI? Removing one of it doesn't really change anything in my opinion since both are practically the same with just a additive inverse. 
 
 ## Training Environment
-![github-small](https://github.com/YEOWEIHNGWHYELAB/AILEX/blob/main/Website.png)
+![github-small](https://github.com/YEOWEIHNGWHYELAB/2D-Self-Driving-Car-Python3/blob/master/Images/EnvironmentWithObstacles.png)
 
 ## Performance diagnostics
 ![github-small](https://github.com/YEOWEIHNGWHYELAB/AILEX/blob/main/Start.png?raw=true)
